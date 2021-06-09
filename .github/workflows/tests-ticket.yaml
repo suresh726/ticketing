@@ -1,6 +1,8 @@
 name: tests-aut
 on:
-  pull_request
+  pull_request:
+    paths:
+      - 'tickers/**'
 
 jobs:
   build:
